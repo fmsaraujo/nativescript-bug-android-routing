@@ -4,7 +4,6 @@ npm-debug.log
 *.js.map
 *.metadata.json
 app/**/*.js
-app/**/*.css
 npm-debug.log
 
 .vscode/*
