@@ -6,7 +6,7 @@
     <ng-template let-item="item">
       <Label 
         [nsRouterLink]="['./', item.id]" 
-        [text]="item.name" 
+        text="({{ item.id }}) . {{ item.name }} " 
         class="list-group-item"></Label>
     </ng-template>
   </ListView>
